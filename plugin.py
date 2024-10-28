@@ -146,9 +146,7 @@ class BasePlugin:
 
             Domoticz.Debug("jsonFile signals = {}".format(jsonData))
             if jsonData != None:
-                    #Domoticz.Debug("RTE datas readed")
-                    #self.J0Value = int(jsonData['signals'][0]['dvalue'])
-                    #Domoticz.Debug("signal dvalue d0 = {}".format(self.J0Value))
+
                         """if self.J0Value > 1 :
                             self.J0Value = self.J0Value + 1
                         else :
