@@ -146,6 +146,7 @@ class BasePlugin:
 
             #Domoticz.Debug("jsonFile signals = {}".format(jsonData))
             if jsonData != None:
+                  Domoticz.Debug("jsonFile signals = {}".format(jsonData))
 
                         """if self.J0Value > 1 :
                             self.J0Value = self.J0Value + 1
