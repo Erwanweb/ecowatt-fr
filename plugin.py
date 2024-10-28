@@ -144,7 +144,7 @@ class BasePlugin:
                     Domoticz.Error(f"Error opening json ecowatt file !")
                     return
 
-            Domoticz.Debug("jsonFile signals = {}".format(jsonData))
+            #Domoticz.Debug("jsonFile signals = {}".format(jsonData))
             if jsonData != None:
 
                         """if self.J0Value > 1 :
