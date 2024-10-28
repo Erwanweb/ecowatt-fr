@@ -155,11 +155,6 @@ class BasePlugin:
                             self.J0Value = 1
                     self.J0Message = str(jsonData['signals'][0]['message'])"""
 
-                    #Updating devices values
-                    #Domoticz.Debug("Updating Devices from RTE datas")
-                    #Devices[1].Update(nValue= self.J0Value, sValue=str(self.J0Message))
-
-
 
 global _plugin
 _plugin = BasePlugin()
