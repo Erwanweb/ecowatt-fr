@@ -139,7 +139,6 @@ class BasePlugin:
             with open(jsonFile, encoding='UTF-8') as EcoWattStream:
                 try:
                     jsonData = json.load(EcoWattStream)
-                    # jsonData = json.loads(EcoWattStream.read().decode('utf-8'))
                     #Domoticz.Debug("jsonFile signals = {}".format(jsonData))
                 except:
                     Domoticz.Error(f"Error opening json ecowatt file !")
@@ -150,11 +149,6 @@ class BasePlugin:
                     #Domoticz.Debug("RTE datas readed")
                     #self.J0Value = int(jsonData['signals'][0]['dvalue'])
                     #Domoticz.Debug("signal dvalue d0 = {}".format(self.J0Value))
-                        """if self.J0Value > 1 :
-                            self.J0Value = self.J0Value + 1
-                        else :
-                            self.J0Value = 1
-                    self.J0Message = str(jsonData['signals'][0]['message'])"""
 
                     #Updating devices values
                     #Domoticz.Debug("Updating Devices from RTE datas")
